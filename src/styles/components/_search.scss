@@ -1,0 +1,63 @@
+
+.search__container{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2rem;
+}
+.search__input-container{
+ input{
+  color:$text-color-dark;
+  border: none;
+  background-color: $input-color-dark;
+   font-size: 1rem;
+   padding: 1rem 3rem;
+   border-radius: 5px;
+   box-shadow: 1px 1px 50px rgb(27, 25, 25);
+  &:focus{
+   outline: none;
+  }
+  }
+ button{
+  cursor: pointer;
+   background-color: transparent;
+   border: none;
+   font-size: 1.9rem;
+   justify-content: center;
+   padding: .5rem;
+ }
+
+}
+
+.search__continents{
+ select{
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 50px rgb(27, 25, 25);
+ }
+ .search__options-continents{
+  cursor: pointer;
+  border: none;
+  background-color: $input-color-dark;
+  color: $text-color-dark;
+  padding: 1rem;
+  font-size: 1rem;
+  &:focus{
+   outline: none;
+  }
+ }
+
+}
+
+
+@media screen and (max-width:500px){
+ 
+  .search__container{
+ flex-direction: column;
+ gap: 2rem;
+}
+button{
+ display: none;
+}
+} 

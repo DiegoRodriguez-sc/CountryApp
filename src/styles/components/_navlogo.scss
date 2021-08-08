@@ -1,0 +1,17 @@
+.navlogo__header {
+  align-items: center;
+  box-shadow: 1px 1px 10px rgb(14, 13, 13);
+  background-color:$input-color-dark;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  h1 {
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+}
+.navlogo__btn {
+  cursor: pointer;
+  margin-right: 1rem;
+  padding: 1rem;
+}

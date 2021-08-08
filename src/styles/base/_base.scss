@@ -1,0 +1,44 @@
+/* Nunito sans */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+
+body{
+  box-sizing: border-box;
+  background-color: $bg-color-dark;
+  color: $text-color-dark;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+}
+body.light{
+  background-color: $bg-color-light;
+  color: $text-color-light;
+  .navlogo__header{
+    background-color:$input-color-light;
+  }
+  .countryscreen__btn{
+    background-color: $input-color-light;
+    color: $text-color-light;
+  }
+  .countryscreen__link-border{
+    background-color: $input-color-light;
+    color: $text-color-light;
+  }
+  .homepage__card{
+    background-color: $input-color-light;
+    color: $text-color-light;
+  }
+  .search__options-continents{
+    background-color: $input-color-light;
+    color: $text-color-light;
+  }
+  input{
+    background-color: $input-color-light;
+    color:$text-color-light;
+  }
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
