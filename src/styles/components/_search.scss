@@ -54,10 +54,15 @@
 @media screen and (max-width:500px){
  
   .search__container{
- flex-direction: column;
- gap: 2rem;
-}
-button{
- display: none;
-}
+    flex-direction: column;
+    //  gap: 2rem;
+  }
+
+  .search__options-continents{
+    margin-top: 1.5rem;
+  }
+
+  button{
+  display: none;
+  }
 } 
